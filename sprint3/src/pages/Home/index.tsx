@@ -145,8 +145,8 @@ function Home() {
                                 <label htmlFor="km">Kilometragem:</label>
                                 <input type="text" id="km" name="km" placeholder="Digite a kilometragem..." required></input>
 
-                                <label htmlFor="problemas">Problemas apresentados:</label>
-                                <input type="text" id="problemas" name="problemas" placeholder="Digite os seus problemas..." required></input>
+                                <label htmlFor="sintomas">Sintomas apresentados:</label>
+                                <input type="text" id="sintomas" name="sintomas" placeholder="Digite os sintomas apresentados..." required></input>
                             </div>
                         </div>
                         <button>Enviar!</button>
