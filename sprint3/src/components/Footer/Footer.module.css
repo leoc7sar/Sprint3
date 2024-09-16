@@ -1,0 +1,79 @@
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #1b1b1b;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+}
+.box2, .box3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.3rem;
+}
+.box1{
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1.3rem;
+}
+.box1 a, .box2 a, .box3 a{
+    color: #FFF;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.box1 a:hover, .box2 a:hover, .box3 a:hover{
+    color: #0085FF;
+}
+.redes{
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.direitos{
+    font-size: 1rem;
+    margin-top: auto;
+}
+.baixe{
+    font-size: 1.5rem;
+}
+.apps{
+    display: flex;
+    gap: 3rem;
+    font-size: 2.3rem;
+}
+
+@media screen and (max-width:1058px){
+    .box1{
+        font-size: 1rem;
+    }
+    .redes{
+        font-size: 1.5rem;
+    }
+    .direitos{
+        font-size: 0.8rem;
+    }
+    .baixe{
+        font-size: 1rem;
+    }
+    .apps{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width:576px){
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box2{
+        order: 3;
+    }
+    .box3{
+        order: 2;
+    }
+}
