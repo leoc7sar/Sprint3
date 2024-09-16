@@ -1,0 +1,189 @@
+.mainLogin{
+    width: 100%;
+    height: 100vh;
+    background-color: #1b1b1b;
+    display: flex;
+    align-items: center;
+}
+.log1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #0085ff;
+    gap: 1rem;
+}
+
+.log1 p{
+    font-size: 6rem;
+    font-weight: bold;
+}
+.log2{
+    width: 30%;
+    background-color: #000;
+    margin: 0 auto;
+    height: 60%;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 25px 4px rgba(255, 255, 255, 0.5);
+    color: #fff;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.log2 a{
+    color: #fff;
+    margin-left: auto;
+}
+.log2 i{
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: auto;
+}
+.log2 p{
+    margin-top: auto;
+}
+.log2 i:hover{
+    color: #0085ff;
+}
+.login{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+.login h2{
+    margin-bottom: 1.5rem;
+}
+.login p{
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+.iconinput{
+    display: flex;
+    border: 1px solid #0085ff;
+    padding: 0.6rem 1rem;
+    border-radius: 0.4rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.iconinput input{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    height: inherit;
+}
+.iconinput input:focus-visible{
+    outline: none;
+}
+.iconinput i{
+cursor: default;
+font-size: 1.5rem;
+}
+.iconinput i:hover{
+    color: #fff;
+}
+.iconinput input::placeholder{
+    color: #fff;
+}
+.login button{
+    background-color: #0085ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.4rem;
+    transition: 0.3s;
+}
+.login button:hover{
+    box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.8);
+}
+.login a{
+    color: #cacaca;
+    font-size:1rem;
+    margin-top: 1rem;
+    transition: 0.3s;
+    margin: 1rem auto;
+}
+.login a:hover{
+    color: #0085ff;
+}
+@media screen and (max-width:1325px){
+    .log1 p{
+        font-size: 4rem;
+    }
+    .log1 img{
+        width: 8rem;
+    }
+    .log2{
+        width: 40%;
+    }
+}
+@media screen and (max-width:995px){
+    .mainLogin{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .log1{
+        display: none;
+    }
+    .log2{
+        width: 60%;
+        height: 90%;
+    }
+}
+@media screen and (max-width:685px){
+    .log2 i{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:675px){
+    .log2{
+        width: 70%;
+    }
+}
+@media screen and (max-width:575px){
+    .log2{
+        width: 80%;
+        height: 70%;
+    }
+    .login{
+        width: 85%;
+    }
+    .login button{
+        font-size: 1.2rem;
+    }
+    .log2 p{
+        font-size: 0.8rem;
+    }
+    .iconinput i{
+        font-size: 1.2rem;
+    }
+    .iconinput input{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width:420px){
+    .login a{
+        font-size: 0.8rem;
+    }
+    .login button{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:350px){
+    .login a{
+        font-size: 0.6rem;
+    }
+    .log2 p{
+        font-size: 0.7rem;
+    }
+}
